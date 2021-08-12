@@ -1,4 +1,5 @@
 import GalleryItem from "../GalleryItem/GalleryItem";
+import {Container, Row, } from "react-bootstrap";
 
 function Gallery ({
     galleryList
@@ -6,15 +7,17 @@ function Gallery ({
     console.log('Gallery List', galleryList);
     return (
         <>
-            <h1>Test</h1>
-            <div>
-                {galleryList.map(imageObject => (
-                    <GalleryItem 
-                        key={imageObject.id}
-                        data={imageObject}
-                    />
-                ))}
-            </div>
+            <Container>
+                <Row>
+                    {galleryList.map(imageObject => (
+                        <GalleryItem 
+                            key={imageObject.id}
+                            data={imageObject}
+                        />
+                    ))}
+                </Row>
+            </Container>
+            
         </>    
     )
 }

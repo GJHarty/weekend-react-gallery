@@ -4,7 +4,23 @@ body {
   font-family: sans-serif;
 }
 
-.galleryItemDiv {
-  margin: 20px;
-  display: inline;
+.imageClass, .description, .test {
+  width: 100%;
+  object-fit: cover;
+  height: 270px;
 }
+
+.card {
+  font-family: Futura, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+img {
+  padding: 15px 0px 0px;
+}
+
