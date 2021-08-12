@@ -44,7 +44,7 @@ function GalleryItem({
                         <p className="description">{data.description}</p>
                     </div>
                     <p className="likes">{numberOfLikes} people like this!</p>
-                    <button>Like this Photo</button>
+                    <button id={idVal} onClick={onLikeClick}>Like this Photo</button>
                 </Col>
             }
         </>
