@@ -2,17 +2,20 @@ import GalleryItem from "../GalleryItem/GalleryItem";
 import {Container, Row, } from "react-bootstrap";
 
 function Gallery ({
-    galleryList
+    galleryList,
+    onAddLike
 }) {
     console.log('Gallery List', galleryList);
+
     return (
         <>
             <Container>
-                <Row>
+                <Row className="rowClass">
                     {galleryList.map(imageObject => (
                         <GalleryItem 
-                            key={imageObject.id}
+                            idVal={imageObject.id}
                             data={imageObject}
+                            setLike={onAddLike}
                         />
                     ))}
                 </Row>

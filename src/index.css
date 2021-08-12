@@ -9,7 +9,9 @@ body {
   object-fit: cover;
   height: 270px;
 }
-
+body {
+  background-color: lightgray;
+}
 .card {
   font-family: Futura, Arial, Helvetica, sans-serif;
   font-size: 24px;
@@ -20,7 +22,12 @@ body {
   border-radius: .25rem;
 }
 
-img {
-  padding: 15px 0px 0px;
+img, .description {
+  padding: 15px 0px 15px;
+  margin: 0;
+}
+
+.rowClass {
+  height: 329px;
 }
 
