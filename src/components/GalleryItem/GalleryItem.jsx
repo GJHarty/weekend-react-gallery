@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container, Row, Col, CardColumns} from "react-bootstrap";
+import { Col, Button } from "react-bootstrap";
 
 function GalleryItem({
     idVal,
@@ -37,14 +37,14 @@ function GalleryItem({
                         <img className="imageClass" src={data.img} alt={data.altText}/>
                     </div>
                     <p className="likes">{numberOfLikes} people like this!</p>
-                    <button id={idVal} onClick={onLikeClick}>Like this Photo</button>
+                    <Button className="likeButton" id={idVal} onClick={onLikeClick}>Like this Photo</Button>
                 </Col> :
                 <Col className="card">
                     <div onClick={onImgClick}>
                         <p className="description">{data.description}</p>
                     </div>
                     <p className="likes">{numberOfLikes} people like this!</p>
-                    <button id={idVal} onClick={onLikeClick}>Like this Photo</button>
+                    <Button id={idVal} onClick={onLikeClick}>Like this Photo</Button>
                 </Col>
             }
         </>

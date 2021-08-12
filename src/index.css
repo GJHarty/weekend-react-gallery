@@ -31,3 +31,6 @@ img, .description {
   height: 329px;
 }
 
+.likeButton {
+  margin-bottom: 10px;
+}

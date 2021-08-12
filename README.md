@@ -19,13 +19,13 @@ I will be displaying a gallery of things that are important to me. Users should 
     [x] create Gallery Component
         [x] iterate over list and show on DOM
         [x] create gallery items 
-    [] axios
+    [x] axios
         [x] get
-        [] put
-    [] create Gallery Item Component
+        [x] put
+    [x] create Gallery Item Component
         [x] update gallery to show new content
         [x] image/description swap
-        [] display # of likes
-        [] use axios to update data on server
+        [x] display # of likes
+        [x] use axios to update data on server
 
     
