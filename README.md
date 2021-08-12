@@ -8,17 +8,17 @@ I will be displaying a gallery of things that are important to me. Users should 
 
 ## To-do List
 
-- [] Setup
-    [] Add sample list
-        [] images
-        [] descriptions
-    [] import axios
-    [] create Gallery Component folder 
+- [x] Setup
+    [x] Add sample list
+        [x] images
+        [x] descriptions
+    [x] import axios
+    [x] create Gallery Component folder 
 
 - [] Base Mode
-    [] create Gallery Component
-        [] iterate over list and show on DOM
-        [] create gallery items 
+    [x] create Gallery Component
+        [x] iterate over list and show on DOM
+        [x] create gallery items 
     [] axios
         [] get
         [] put
@@ -27,5 +27,5 @@ I will be displaying a gallery of things that are important to me. Users should 
         [] image/description swap
         [] display # of likes
         [] use axios to update data on server
-        
+
     
