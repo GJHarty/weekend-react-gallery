@@ -8,24 +8,24 @@ I will be displaying a gallery of things that are important to me. Users should 
 
 ## To-do List
 
-- [] Setup
-    [] Add sample list
-        [] images
-        [] descriptions
-    [] import axios
-    [] create Gallery Component folder 
+- [x] Setup
+    [x] Add sample list
+        [x] images
+        [x] descriptions
+    [x] import axios
+    [x] create Gallery Component folder 
 
-- [] Base Mode
-    [] create Gallery Component
-        [] iterate over list and show on DOM
-        [] create gallery items 
-    [] axios
-        [] get
-        [] put
-    [] create Gallery Item Component
-        [] update gallery to show new content
-        [] image/description swap
-        [] display # of likes
-        [] use axios to update data on server
-        
+- [x] Base Mode
+    [x] create Gallery Component
+        [x] iterate over list and show on DOM
+        [x] create gallery items 
+    [x] axios
+        [x] get
+        [x] put
+    [x] create Gallery Item Component
+        [x] update gallery to show new content
+        [x] image/description swap
+        [x] display # of likes
+        [x] use axios to update data on server
+
     
