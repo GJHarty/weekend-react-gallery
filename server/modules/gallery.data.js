@@ -1,9 +1,9 @@
 const galleryItems = [
     {
       id: 1,
-      img: 'https://images-na.ssl-images-amazon.com/images/I/81KjBiKs-AL.jpg',
+      img: 'https://scontent-ort2-2.xx.fbcdn.net/v/t1.18169-9/10407329_10155218537340393_4635632937610664140_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=a9b1d2&_nc_ohc=49p-v_081e8AX8MzXf-&_nc_ht=scontent-ort2-2.xx&oh=f3bc92ba873ca2eb4122cf6ca3f9e4c2&oe=613DA18E',
       altText: "ATLA",
-      description: "I love this show to death. My favorite character is Uncle Iroh.",
+      description: "Here is a picture of my sister and I back on the farm in Warren, MN",
       likes: 0,
     },
     {
