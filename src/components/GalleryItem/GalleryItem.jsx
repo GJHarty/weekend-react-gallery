@@ -6,7 +6,6 @@ function GalleryItem({
     data,
     setLike
 }) {
-
     let [imgShowing, setImageShowing] = useState(true);
     let [numberOfLikes, setNumberOfLikes] = useState(0);
 
@@ -34,7 +33,7 @@ function GalleryItem({
             imgShowing ? 
                 <Col className="card">
                     <div className="test" onClick={onImgClick} >
-                        <img className="imageClass" src={data.img} alt={data.altText}/>
+                        <img className="imageClass" src={data.path} alt={data.altText}/>
                     </div>
                     <p className="likes">{numberOfLikes} people like this!</p>
                     <Button className="likeButton" id={idVal} onClick={onLikeClick}>Like this Photo</Button>

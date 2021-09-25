@@ -1,5 +1,6 @@
 import GalleryItem from "../GalleryItem/GalleryItem";
 import {Container, Row, } from "react-bootstrap";
+import { data } from "jquery";
 
 function Gallery ({
     galleryList,
@@ -13,6 +14,7 @@ function Gallery ({
                 <Row className="rowClass">
                     {galleryList.map(imageObject => (
                         <GalleryItem 
+                            key={imageObject.id}
                             idVal={imageObject.id}
                             data={imageObject}
                             setLike={onAddLike}
