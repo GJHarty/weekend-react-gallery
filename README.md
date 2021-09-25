@@ -1,31 +1,34 @@
-# Project Name
+# Gallery of my Life
 
-Weekend React Gallery
+This displays images of your life in a neat card format using bootstrap. Users can click on the image to reveal a description and add likes to each photo. This runs on a Node.js server but no database functionality was added.
 
-## Description
+## Setup
 
-I will be displaying a gallery of things that are important to me. Users should be able to interact with the photos in order to see a description and like the photo. 
+Simply clone the respository and install the node modules. This is a React app so you will have to run the server and client seperately
+```
+npm install
+npm run server
+npm run client
+```
+If you would like to customize this yourself, simply edit the galleryItem paths in /modules/gallery.data.js
+```
+const  galleryItems = [
+	{
+		id:  1,
+		path:  'images/PATH_TO_YOUR_PHOTO',
+		altText:  "ALT_TEXT",
+		description:  "DESCRIPTION",
+		likes:  0,
+	},
+	...
+}
+```
 
-## To-do List
+<a href="https://imgur.com/C0I0JYd"><img src="https://i.imgur.com/C0I0JYd.png" title="source: imgur.com" /></a>
 
-- [x] Setup
-    [x] Add sample list
-        [x] images
-        [x] descriptions
-    [x] import axios
-    [x] create Gallery Component folder 
 
-- [x] Base Mode
-    [x] create Gallery Component
-        [x] iterate over list and show on DOM
-        [x] create gallery items 
-    [x] axios
-        [x] get
-        [x] put
-    [x] create Gallery Item Component
-        [x] update gallery to show new content
-        [x] image/description swap
-        [x] display # of likes
-        [x] use axios to update data on server
 
-    
+
+
+
+
